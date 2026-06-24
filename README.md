@@ -9,7 +9,7 @@
 
 Replication code for the MSc Economics thesis of the same name (BI Norwegian Business School, 2026). The project fuses multispectral Landsat 8/9 imagery and VIIRS nighttime lights through a ResNet-18 convolutional network to predict cluster-level Demographic and Health Survey (DHS) asset wealth across 22 African countries, and benchmarks the result head-to-head against Meta's Relative Wealth Index on identical DHS clusters.
 
-> **This repository contains code and rendered figures/tables only — no data.** Every input is obtained by the reproducer from its original source (see [DATA.md](DATA.md) and [`data/README.md`](data/README.md)). This keeps the repository fully compliant with the DHS Terms of Use and means results are reproduced from primary sources rather than from second-hand numbers.
+> **This repository contains code and rendered figures/tables only - no data.** Every input is obtained by the reproducer from its original source (see [DATA.md](DATA.md) and [`data/README.md`](data/README.md)). This keeps the repository fully compliant with the DHS Terms of Use and means results are reproduced from primary sources rather than from second-hand numbers.
 
 ---
 
@@ -54,7 +54,7 @@ Code is organized one file per analysis stage, one file per thesis figure, and o
 - **Label.** A PCA asset-wealth index built from harmonized DHS asset and housing variables, aggregated to the survey cluster (16,279 clusters, 22 countries, 2017–2024).
 - **Inputs.** Two complementary streams per cluster: seven-band Landsat 8/9 multispectral reflectance and VIIRS nighttime-light radiance, each a three-year median composite (2017–2019, 2020–2022, 2023–2025), exported via Google Earth Engine as 224×224 tiles (6.72 km).
 - **Model.** A ResNet-18 (v2 pre-activation) backbone per stream; the 512-dim pooled features of each are concatenated and fused with ridge regression (1024-dim).
-- **Evaluation.** Two cross-validation schemes — in-country (DBSCAN spatial declustering to block leakage) and out-of-country (whole nations held out) — plus a Multiple Instance Learning 3×3 variant on West Africa as a diagnostic of DHS coordinate displacement.
+- **Evaluation.** Two cross-validation schemes - in-country (DBSCAN spatial declustering to block leakage) and out-of-country (whole nations held out) - plus a Multiple Instance Learning 3×3 variant on West Africa as a diagnostic of DHS coordinate displacement.
 
 ## Reproducing the results
 
