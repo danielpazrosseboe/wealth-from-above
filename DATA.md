@@ -12,11 +12,7 @@ This project uses four data sources with **different licenses**. **No data are i
 | **Relative Wealth Index** (Meta) | Benchmark wealth product, 2.4 km grid | **CC BY 4.0** (via Humanitarian Data Exchange) | **No** — download from HDX |
 | **geoBoundaries** ADM2 | District boundaries for aggregation | **CC BY 4.0** | **No** — download from geoBoundaries |
 
-## Why nothing is shipped
-
-Two reasons. First, the DHS Program Terms of Use prohibit redistributing micro-level data and require users to **make no effort to identify any enumeration area**; the cleanest way to honor that is to ship no DHS-derived numbers at all — not the wealth index, the cluster file, or the model predictions keyed to those clusters. Second, reproducing from primary sources rather than from one author's CSVs is stronger replication: you rebuild the label and the predictions yourself and can verify every step.
-
-## DHS — restricted
+## DHS - restricted
 
 The DHS Program Terms of Use state that **DHS micro-level data may not be re-distributed**, that datasets may not be shared with other researchers without written consent, and that users must **make no effort to identify any individual, household, or enumeration area**. (See *The DHS Program — Datasets Terms of Use*.)
 
@@ -29,7 +25,7 @@ Both are openly licensed but must be downloaded from source and attributed if yo
 - **Relative Wealth Index:** Chi, G., Fang, H., Chatterjee, S., & Blumenstock, J. E. (2022), *Microestimates of wealth for all low- and middle-income countries*, PNAS; data via Meta / Humanitarian Data Exchange, CC BY 4.0.
 - **geoBoundaries:** Runfola, D. et al. (2020), *geoBoundaries: A global database of political administrative boundaries*, PLoS ONE; CC BY 4.0.
 
-## Landsat / VIIRS — public domain, via Earth Engine
+## Landsat / VIIRS - public domain, via Earth Engine
 
 Accessed live through Google Earth Engine by `code/analysis_02*`; no local copy is stored. Requires an authenticated Earth Engine project.
 
