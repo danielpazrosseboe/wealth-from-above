@@ -18,7 +18,7 @@ The DHS Program Terms of Use state that **DHS micro-level data may not be re-dis
 
 To obtain the inputs: register at [dhsprogram.com](https://dhsprogram.com/data/new-user-registration.cfm), request the surveys and their **GPS datasets**, then run `code/analysis_01_pca_wealth_index.py` to rebuild the wealth index and cluster file locally. DHS also asks that you email a copy of resulting publications to `references@dhsprogram.com`.
 
-## Relative Wealth Index and geoBoundaries — CC BY 4.0, fetch and attribute
+## Relative Wealth Index and geoBoundaries - CC BY 4.0, fetch and attribute
 
 Both are openly licensed but must be downloaded from source and attributed if you redistribute derivatives:
 
