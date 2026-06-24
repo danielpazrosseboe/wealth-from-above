@@ -4,13 +4,13 @@ This project uses four data sources with **different licenses**. **No data are i
 
 ## Summary
 
-| Source | What it is | License / status | In this repo? |
+| Source | What it is | License / status |
 |---|---|---|---|
-| **DHS** (Demographic and Health Surveys) | Household survey microdata → the PCA wealth label, cluster GPS, urban/rural flag | **Restricted.** Registered access only; redistribution prohibited | **No** — obtain under your own DHS access |
-| **Landsat 8/9** (NASA/USGS) | Multispectral daytime reflectance | Public domain (US government) | **No** — pulled live via Google Earth Engine |
-| **VIIRS** (NOAA) | Nighttime light radiance | Public domain (US government) | **No** — pulled live via Google Earth Engine |
-| **Relative Wealth Index** (Meta) | Benchmark wealth product, 2.4 km grid | **CC BY 4.0** (via Humanitarian Data Exchange) | **No** — download from HDX |
-| **geoBoundaries** ADM2 | District boundaries for aggregation | **CC BY 4.0** | **No** — download from geoBoundaries |
+| **DHS** (Demographic and Health Surveys) | Household survey microdata → the PCA wealth label, cluster GPS, urban/rural flag | **Restricted.** Registered access only; redistribution prohibited |
+| **Landsat 8/9** (NASA/USGS) | Multispectral daytime reflectance | Public domain (US government) |
+| **VIIRS** (NOAA) | Nighttime light radiance | Public domain (US government) | 
+| **Relative Wealth Index** (Meta) | Benchmark wealth product, 2.4 km grid | **CC BY 4.0** (via Humanitarian Data Exchange) 
+| **geoBoundaries** ADM2 | District boundaries for aggregation | **CC BY 4.0** | 
 
 ## DHS - restricted
 
