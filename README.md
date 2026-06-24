@@ -45,11 +45,8 @@ Code is organized one file per analysis stage, one file per thesis figure, and o
 ├── reference_outputs/            # the rendered thesis figures & tables (PNG) — one per figure_/table_ script
 ├── data/                         # NOT included — fetch every input yourself
 │   └── README.md                 # what to download (DHS, RWI, geoBoundaries) and where to put it
-├── DATA.md                       # data sources, licenses, and access
 ├── PUBLISHING.md                 # how this repo was published + how to cut a citable release
 ├── requirements.txt
-├── CITATION.cff
-└── LICENSE
 ```
 
 ## Method in brief
@@ -90,9 +87,6 @@ The values these reproduce: cluster fused R² 0.682 (in-country) / 0.638 (out-of
 
 Code is released under the MIT License. **No data are distributed in this repository.** Each input keeps its own terms: DHS data are restricted (registered access; redistribution prohibited), the Relative Wealth Index and geoBoundaries are CC BY 4.0, and Landsat/VIIRS are public-domain US government data accessed through Google Earth Engine. See **[DATA.md](DATA.md)** and [`data/README.md`](data/README.md) to obtain them.
 
-## Citation
-
-If you use this code, please cite the archived release (DOI in the badge above). A `CITATION.cff` is included so GitHub shows a "Cite this repository" button. See **[PUBLISHING.md](PUBLISHING.md)** to mint the DOI.
 
 ## Acknowledgements
 
