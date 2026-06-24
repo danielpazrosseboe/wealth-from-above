@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------------------
+# DATA — nothing under data/ is published. Reproducers fetch every input
+# themselves from its original source (DHS, Relative Wealth Index,
+# geoBoundaries) — see DATA.md. Only data/README.md (fetch instructions)
+# is tracked.
+# ---------------------------------------------------------------------------
+data/*
+!data/README.md
+
+# Belt-and-suspenders: never commit data, imagery, or model weights anywhere
+*.csv
+*.dta
+*.DTA
+*.sav
+*.SAV
+*.SAS7BDAT
+*_DHS_*.zip
+*.tfrecord
+*.tfrecords
+*.tif
+*.tiff
+*.gpkg
+*.h5
+*.keras
+*.ckpt
+*.pb
+checkpoint
+saved_model/
+models/
+checkpoints/
+
+# Auto-generated run outputs (reference_outputs/ is kept on purpose)
+outputs/
+figures_out/
+tables_out/
+
+# Credentials / secrets (Earth Engine, service accounts, env)
+.env
+*.key
+*service*account*.json
+*credentials*.json
+ee-*.json
+gee-*.json
+.config/earthengine/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.Rhistory
+.Rapp.history
+.idea/
+.vscode/

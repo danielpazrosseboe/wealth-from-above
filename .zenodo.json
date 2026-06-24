@@ -1,0 +1,22 @@
+{
+  "title": "Wealth from Above: Estimating Household Asset Wealth Across 22 Sub-Saharan African Countries from Satellite Imagery, 2017-2024",
+  "description": "Replication code for an MSc Economics thesis (BI Norwegian Business School, 2026) that fuses multispectral Landsat 8/9 imagery and VIIRS nighttime lights through a ResNet-18 network to predict cluster-level DHS asset wealth across 22 African countries, and benchmarks the result against Meta's Relative Wealth Index on identical DHS clusters. Code is MIT-licensed; DHS-derived data are not redistributed (see DATA.md).",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Paz Rossebø, Daniel",
+      "affiliation": "BI Norwegian Business School"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "poverty mapping",
+    "satellite imagery",
+    "deep learning",
+    "nighttime lights",
+    "Demographic and Health Surveys",
+    "sub-Saharan Africa",
+    "development economics"
+  ]
+}

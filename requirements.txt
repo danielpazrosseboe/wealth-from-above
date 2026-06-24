@@ -1,0 +1,20 @@
+# Reproduce the analysis, tables, and figures from the derived prediction files.
+# (No GPU, imagery, or model retraining required.)
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+geopandas
+pyreadstat
+
+# ---------------------------------------------------------------------------
+# OPTIONAL — full end-to-end pipeline only (analysis_02* export, analysis_04* training).
+# Requires an authenticated Earth Engine project and a GPU; uncomment if needed.
+# ---------------------------------------------------------------------------
+# tensorflow
+# earthengine-api
+
+# Tip: after confirming your working environment, pin exact versions with
+#   pip freeze > requirements.lock.txt
+# and commit that alongside this file for exact reproducibility.
