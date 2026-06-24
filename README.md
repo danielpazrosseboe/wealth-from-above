@@ -2,11 +2,6 @@
 
 **Estimating Household Asset Wealth Across 22 Sub-Saharan African Countries from Satellite Imagery, 2017–2024**
 
-<!-- Replace the DOI and repo placeholders after you publish (see PUBLISHING.md). -->
-[![DOI](https://zenodo.org/badge/DOI/PASTE-YOUR-DOI-HERE.svg)](https://doi.org/PASTE-YOUR-DOI-HERE)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-
 Replication code for the MSc Economics thesis of the same name (BI Norwegian Business School, 2026). The project fuses multispectral Landsat 8/9 imagery and VIIRS nighttime lights through a ResNet-18 convolutional network to predict cluster-level Demographic and Health Survey (DHS) asset wealth across 22 African countries, and benchmarks the result head-to-head against Meta's Relative Wealth Index on identical DHS clusters.
 
 > **This repository contains code and rendered figures/tables only - no data.** Every input is obtained by the reproducer from its original source (see [DATA.md](DATA.md) and [`data/README.md`](data/README.md)). This keeps the repository fully compliant with the DHS Terms of Use and means results are reproduced from primary sources rather than from second-hand numbers.
